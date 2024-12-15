@@ -1,0 +1,46 @@
+*,
+*::before,
+*::after{
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: "Open Sans", serif;
+}
+
+.header{
+    margin: 2rem 2rem;
+    box-shadow: 0px 0rem 2rem 0rem green;
+    border-radius: 20px;
+}
+
+.title{
+    font-size: 2.5rem;
+    font-weight: 700;
+    text-align: center;
+    padding: 0.5rem;
+    letter-spacing: -0.05rem;
+    text-transform: uppercase;
+    text-shadow: black;
+
+
+}
+
+.description{
+    font-size: 1rem;
+    padding: 0.5rem;
+    text-shadow: 1 black;
+    text-align: center;
+
+}
+
+.content{
+    display: flex;
+    margin: 2rem 2rem;
+}
+
+
+.image > img{
+    width: 500px;
+    height: 450px;
+    border: 10px solid wheat;
+    border-radius: 10px;
+}
